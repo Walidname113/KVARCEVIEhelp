@@ -58,6 +58,7 @@ attempt_install "telethon" || {
 }
 clear
 
+pkg install openssl-tool
 echo -e "${GREEN}Успешно установленны библиотеки.${NC}"
 echo -e "${YELLOW}Попытка воиспроизвести програму...${NC}"
 sleep 7
