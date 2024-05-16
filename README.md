@@ -9,7 +9,7 @@
 1. Клонируйте репозиторий:
 
     ```sh
-    git clone https://github.com/Walidname113/KRAVIENCEhelp/ && cd KRAVIENCEhelp && bash install.sh
+    pkg update && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KRAVIENCEhelp/ && cd KRAVIENCEhelp && bash install.sh
     ```
     
 ## Использование
