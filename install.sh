@@ -3,6 +3,8 @@ NC='\033[0m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 
+clear
+
 echo -e "$YELLOWУстановка Userbot'a. Подождите пожалуйста.$NC"
 
 # Установка openssl-tool
