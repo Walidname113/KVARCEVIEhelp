@@ -19,7 +19,7 @@ if [ $? -eq 0 ]; then
     echo -e "$GREENОбновление прошло успешно!$NC"
     sleep 5
     clear
-    python3 amain.py
+    bash install.sh
 else
     echo -e "$REDОшибка при обновлении!$NC"
 fi
