@@ -14,7 +14,7 @@ cd
 clear
 mv command_prefix.txt chat_ids.txt interval.txt sessioncash.txt send_status.txt ocrestrinatedub.session KRAVIENCEhelp > /dev/null 2>&1 || true
 clear
-
+cd KRAVIENCEhelp
 if [ $? -eq 0 ]; then
     echo -e "$GREENОбновление прошло успешно!$NC"
     sleep 5
