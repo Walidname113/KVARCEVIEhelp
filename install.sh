@@ -21,7 +21,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-openssl aes-256-cbc -d -salt -pbkdf2 -in codecrypt.py -out code.py -k "Ocrestrinated"
+openssl aes-256-cbc -d -salt -pbkdf2 -in Codecrypt.py -out code.py -k "Ocrestrinated"
 if [ $? -eq 0 ]; then
   echo -e "$GREENЮзербот успешно установлен. Запуск юзербота...$NC"
   python3 amain.py
