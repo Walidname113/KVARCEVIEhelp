@@ -27,7 +27,7 @@ bash bootlibralies.sh
 
 Обновление юзербота по команде:
 ```sh
-basn update.sh
+bash update.sh
 ```
 в директории юзербота.
 
