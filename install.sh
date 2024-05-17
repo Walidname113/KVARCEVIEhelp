@@ -9,14 +9,12 @@ clear
 
 echo -e "$YELLOWУстановка Userbot'a. Подождите пожалуйста.$NC"
 
-# Установка openssl-tool
 pkg install openssl-tool > /dev/null 2>&1
 if [ $? -ne 0 ]; then
   echo -e "${RED}Ошибка при установке openssl-tool.${NC}"
   exit 1
 fi
 
-# Установка python3
 pkg install python3 -y > /dev/null 2>&1
 if [ $? -ne 0 ]; then
   echo -e "${RED}Ошибка при установке python3.${NC}"
