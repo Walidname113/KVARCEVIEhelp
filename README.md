@@ -23,6 +23,14 @@ bash bootlibralies.sh
 
 Все команды описаны в самом юзерботе по команде .help.
 
+## Обновление
+
+Обновление юзербота по команде:
+```sh
+basn update.sh
+```
+в директории юзербота.
+
 ## Лицензия
 
 Этот проект лицензируется и распространяется под Лицензией [GPL-3.0 license.](https://github.com/Walidname113/KRAVIENCEhelp/blob/main/LICENSE)
