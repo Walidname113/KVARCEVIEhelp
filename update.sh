@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd && cd KRAVIENCEhelp && mv command_prefix.txt chat_ids.txt interval.txt sessioncash.txt send_status.txt ocrestrinatedub.session amain.py bootlibralies.sh configure.sh LICENSE README.md words.json install.sh ~/ || true && cd && pkg update && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KRAVIENCEhelp/ && mv command_prefix.txt chat_ids.txt interval.txt sessioncash.txt send_status.txt ocrestrinatedub.session amain.py bootlibralies.sh configure.sh LICENSE README.md words.json install.sh KRAVIENCEhelp || true && cd KRAVIENCEhelp/update && mv Codecrypt.py /KRAVIENCEhelp/ && cd KRAVIENCEhelp/ && bash install.sh
