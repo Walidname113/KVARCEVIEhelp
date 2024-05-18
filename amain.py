@@ -20,7 +20,7 @@ except ImportError:
     sys.exit()
 
 def execute_code():
-    print("\033[0;32mНужные библиотеки уже установленны. Запуск програмы...\033[0m")
+    print("\033[0;32mНужные библиотеки уже установлены. Запуск програмы...\033[0m")
     time.sleep(5)
     subprocess.run(["clear"])
     subprocess.run(["python3", "code.py"])
