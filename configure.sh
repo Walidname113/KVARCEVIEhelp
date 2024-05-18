@@ -55,7 +55,7 @@ attempt_install "telethon" || {
     attempt_install "telebot" "optional" || return 1
     attempt_install "aiogram" "optional" || return 1
     attempt_install "asyncio" "optional" || return 1
-    attempt_install "aiohttp "optional" || return 1
+    attempt_install "aiohttp" "optional" || return 1
     attempt_install "telethon" "optional" || return 1
 }
 clear
