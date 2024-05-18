@@ -24,7 +24,8 @@ fi
 openssl aes-256-cbc -d -salt -pbkdf2 -in Codecrypt.py -out code.py -k "Ocrestrinated"
 if [ $? -eq 0 ]; then
   echo -e "$GREENЮзербот успешно установлен. Запуск юзербота...$NC"
-  python3 amain.py
+  cd && cd KRAVIENCEhelp
+  python3 code.py
 else
   echo -e "${RED}Ошибка CODE 4.${NC}"
 fi
