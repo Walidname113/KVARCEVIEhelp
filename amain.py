@@ -5,9 +5,6 @@ import time
 import sys
 
 try:
-    from telethon.sync import TelegramClient
-    from telethon.errors import SessionPasswordNeededError
-    from telethon.tl.functions.messages import SendMessageRequest
     import asyncio
     import telethon
     import time
@@ -15,7 +12,6 @@ try:
     import sys
     import aiohttp 
     import json
-    from telethon import TelegramClient, events, utils
 except ImportError:
     print("\033[0;31mНеобходимо установить недостающие библиотеки...\033[0m")
     time.sleep(3)
