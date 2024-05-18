@@ -10,7 +10,7 @@ try:
     import time
     import os
     import sys
-    import aiohttp 
+    import requests 
     import json
 except ImportError:
     print("\033[0;31mНеобходимо установить недостающие библиотеки...\033[0m")
