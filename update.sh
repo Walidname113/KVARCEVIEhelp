@@ -20,10 +20,7 @@ cd
 clear
 cd KRAVIENCEhelp
 if [ $? -eq 0 ]; then
-    echo -e "$GREENОбновление прошло успешно!$NC"
-    sleep 5
-    clear
-    bash install.sh
+    echo -e "$YELLOWОбновление прошло успешно, но для полного применения обновлений, введите следующую команду: ` cd && cd KRAVIENCEhelp && bash install.sh ` эта команда перезагрузит необходимые данные. Извините, пока что это не поддерживается автоматически!$NC"
 else
     echo -e "$REDОшибка при обновлении!$NC"
 fi
