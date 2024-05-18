@@ -25,5 +25,4 @@ def execute_code():
     subprocess.run(["clear"])
     subprocess.run(["python3", "code.py"])
 
-if all(hasattr(telethon, module) for module in ['sync', 'errors', 'tl']):
     execute_code()
