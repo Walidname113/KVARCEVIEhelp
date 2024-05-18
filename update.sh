@@ -6,7 +6,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 
 echo -e "$YELLOWПодождите пожалуйста, выполняется обновление...$NC"
-cd && cd KRAVIENCEhelp && mv command_prefix.txt chat_ids.txt interval.txt sessioncash.txt send_status.txt ocrestrinatedub.session ~/ > /dev/null 2>&1 || true
+cd && cd KRAVIENCEhelp && rm -rf install.sh update.sh code.py amain.py bootlibralies.sh configure.sh words.json > /dev/null 2>&1 || true && mv command_prefix.txt chat_ids.txt interval.txt sessioncash.txt send_status.txt ocrestrinatedub.session ~/ > /dev/null 2>&1 || true
 rm -rf KRAVIENCEhelp > /dev/null 2>&1
 pkg install git -y > /dev/null 2>&1
 git clone https://github.com/Walidname113/KRAVIENCEhelp/ > /dev/null 2>&1
