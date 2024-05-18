@@ -13,6 +13,9 @@ try:
     import time
     import os
     import sys
+    import aiohttp 
+    import json
+    from telethon import TelegramClient, events, utils
 except ImportError:
     print("\033[0;31mНеобходимо установить недостающие библиотеки...\033[0m")
     time.sleep(3)
