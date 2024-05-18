@@ -11,7 +11,7 @@
     ```sh
     pkg update && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KRAVIENCEhelp/ && cd KRAVIENCEhelp && bash install.sh
     ```
-Установка начнётся автоматически.
+Далее установка начнётся автоматически.
 
 ## Использование
 
