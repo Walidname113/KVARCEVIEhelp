@@ -49,7 +49,7 @@ attempt_install "asyncio" &&
 attempt_install "requests" &&
 attempt_install "telethon" || {
     echo -e "${YELLOW}Обновление libexpat успешно. Повторная установка библиотек...${NC}"
-    pkg update libexpat
+    pkg update libexpat >/dev/null 2>&1
     attempt_install "requests" "optional" || return 1
     attempt_install "telebot" "optional" || return 1
     attempt_install "asyncio" "optional" || return 1
