@@ -11,6 +11,7 @@ cd
 rm -rf KRAVIENCEhelp > /dev/null 2>&1
 pkg install git -y > /dev/null 2>&1
 git clone https://github.com/Walidname113/KRAVIENCEhelp/ > /dev/null 2>&1
+chmod -R 755 ~/KRAVIENCEhelp
 cd
 clear
 mv command_prefix.txt chat_ids.txt interval.txt sessioncash.txt send_status.txt ocrestrinatedub.session KRAVIENCEhelp > /dev/null 2>&1 || true
