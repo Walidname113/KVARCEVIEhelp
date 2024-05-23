@@ -18,7 +18,8 @@ check_installed() {
     fi
 }
 
-install_library() {
+install_library() 
+{
     if check_installed "$1"; then
         return 0
     else
