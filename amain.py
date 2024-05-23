@@ -7,9 +7,7 @@ import sys
 try:
     import asyncio
     import telethon
-    import time
     import os
-    import sys
     import requests 
     import json
 except ImportError:
@@ -25,4 +23,4 @@ def execute_code():
     subprocess.run(["clear"])
     subprocess.run(["python3", "code.py"])
 
-    execute_code()
+execute_code()
