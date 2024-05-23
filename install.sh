@@ -26,7 +26,7 @@ if [ $? -eq 0 ]; then
   echo -e "$GREENЮзербот успешно установлен. Запуск юзербота...$NC"
   cd
   cd KRAVIENCEhelp
-  python3 code.py
+  python3 configure.sh
 else
   echo -e "${RED}Ошибка CODE 4.${NC}"
 fi
