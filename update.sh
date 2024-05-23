@@ -6,6 +6,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 
 echo -e "$YELLOWПодождите пожалуйста, выполняется обновление...$NC"
+cd
 pkg install git > /dev/null 2>&1
 cd KRAVIENCEhelp
 git pull > /dev/null 2>&1
