@@ -11,4 +11,4 @@ cd KRAVIENCEhelp
 git pull
 clear
 echo -e "$GREENОбновление прошло успешно.$NC"
-bash install.sh
+bash configure.sh
