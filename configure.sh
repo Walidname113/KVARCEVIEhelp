@@ -8,7 +8,8 @@ YELLOW='\033[1;33m'
 installed_libs=()
 failed_libs=()
 
-check_installed() {
+check_installed() 
+{
     if pip show "$1" &>/dev/null; then
         installed_libs+=("$1")
         return 0
