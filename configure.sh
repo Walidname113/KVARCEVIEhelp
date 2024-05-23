@@ -61,4 +61,6 @@ clear
 echo -e "${GREEN}Успешно установленны библиотеки.${NC}"
 echo -e "${YELLOW}Попытка воиспроизвести програму...${NC}"
 clear
+cd
+cd KRAVIENCEhelp
 python3 amain.py
