@@ -10,6 +10,7 @@ try:
     import os
     import requests 
     import json
+    import psutil
 except ImportError:
     print("\033[0;31mНеобходимо установить недостающие библиотеки...\033[0m")
     time.sleep(3)
