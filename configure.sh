@@ -48,6 +48,7 @@ attempt_install "telebot" &&
 attempt_install "asyncio" &&
 attempt_install "requests" &&
 attempt_install "psutil" &&
+attempt_install "Telegraph" &&
 attempt_install "telethon" || {
     echo -e "${YELLOW}Обновление libexpat успешно. Повторная установка библиотек...${NC}"
     pkg update libexpat > /dev/null 2>&1
@@ -56,6 +57,7 @@ attempt_install "telethon" || {
     attempt_install "asyncio" "optional" || return 1
     attempt_install "requests" "optional" || return 1
     attempt_install "psutil" "optional" || return 1
+    attempt_install "Telegraph" "optional" || return 1
     attempt_install "telethon" "optional" || return 1
 }
 clear
