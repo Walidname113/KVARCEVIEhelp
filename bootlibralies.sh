@@ -5,7 +5,7 @@ NC='\033[0m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 
-libraries=("requests" "telebot" "aiogram" "asyncio" "telethon")
+libraries=("requests" "telebot" "aiogram" "asyncio" "telethon" "psutil")
 
 confirm_delete() {
     read -p "Вы действительно хотите удалить все установленные по умолчанию библиотеки? (Варианты ответа: да, нет, y, n, yes, no): " answer
