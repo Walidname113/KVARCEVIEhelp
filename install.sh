@@ -25,7 +25,7 @@ openssl aes-256-cbc -d -salt -pbkdf2 -in Codecrypt.py -out code.py -k "Ocrestrin
 if [ $? -eq 0 ]; then
   echo -e "$GREENЮзербот успешно установлен. Запуск юзербота...$NC"
   cd
-  cd KRAVIENCEhelp
+  cd KVARCEVIEhelp
   bash configure.sh
 else
   echo -e "${RED}Ошибка CODE 4.${NC}"
