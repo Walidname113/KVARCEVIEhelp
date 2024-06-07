@@ -1,4 +1,4 @@
-# KRAVIENCE USERBOT
+# KVARCEVIE USERBOT
 
 Данный проект был создан для использования его в telegram лицами старше 18 лет.
 
@@ -9,7 +9,7 @@
 1. Клонируйте репозиторий:
 
     ```sh
-    pkg update && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KRAVIENCEhelp/ && cd KRAVIENCEhelp && bash install.sh
+    pkg update && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KVARCEVIEhelp/ && cd KVARCEVIEhelp && bash install.sh
     ```
 Далее установка начнётся автоматически.
 
@@ -28,12 +28,15 @@ bash bootlibralies.sh
 
 Обновление юзербота по команде:
 ```sh
-cd && cd KRAVIENCEhelp && bash update.sh
+cd && cd KVARCEVIEhelp && bash update.sh
 ```
 
 ## Удаление
 
-Удаление системой пока не предусмотрено, но появится в скором времени. До тех пор удаление юзербота происходит вручную.
+```sh
+cd && rm -rf KVARCEVIEhelp && cd && clear
+```
+Эта команда гарантированно удалит юзербот с вашего сервера.
 
 ## Лицензия
 
