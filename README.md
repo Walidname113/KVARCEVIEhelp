@@ -9,7 +9,7 @@
 1. Клонируйте репозиторий:
 
     ```sh
-    pkg update && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KVARCEVIEhelp/ && cd KVARCEVIEhelp && bash install.sh
+    pkg update -y && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KVARCEVIEhelp/ && cd KVARCEVIEhelp && bash install.sh
     ```
 Далее установка начнётся автоматически.
 
