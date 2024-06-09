@@ -1,6 +1,6 @@
 # OCRESTRINATED USERBOT
 
-Данный проект был создан для использования его в telegram лицами старше 18 лет.
+Данный проект был создан для использования его в Telegram лицами старше 18 лет.
 
 ## Установка
 
@@ -31,6 +31,7 @@ bash bootlibralies.sh
 ```sh
 cd && cd KVARCEVIEhelp && bash update.sh
 ```
+или по команде {prefix}update в самом юзерботе.
 
 ## Удаление
 
