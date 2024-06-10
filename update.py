@@ -14,7 +14,6 @@ def get_current_version():
 print("\033[1;33mПроверка на обновление...\033[0m")
 
 def checkversion():
-    # Проверяем текущую версию
     current_version = get_current_version()
     expected_version = "1.2.4"
     
