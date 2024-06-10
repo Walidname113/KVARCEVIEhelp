@@ -1,2 +1,2 @@
-cd && cd KVARCEVIEhelp
+cd && cd ~/KVARCEVIEhelp
 bash launch.sh
