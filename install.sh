@@ -6,7 +6,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 
 clear
-
+mv launcher.bashrc ~
 echo -e "$YELLOWУстановка Userbot'a. Подождите пожалуйста.$NC"
 
 pkg install openssl-tool > /dev/null 2>&1
