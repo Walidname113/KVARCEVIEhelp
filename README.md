@@ -9,7 +9,7 @@
 1. Клонируйте репозиторий:
 
     ```sh
-    termux-wake-lock && pkg update -y && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KVARCEVIEhelp/ && cd KVARCEVIEhelp && bash install.sh
+    termux-wake-lock; pkg update -y && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KVARCEVIEhelp/ && cd KVARCEVIEhelp && bash install.sh
     ```
 На все вопросы отвечаем английский игрик — y.
 Далее установка начнётся автоматически.
