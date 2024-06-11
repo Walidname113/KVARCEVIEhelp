@@ -29,7 +29,7 @@ bash bootlibralies.sh
 
 Обновление юзербота по команде:
 ```sh
-cd && cd KVARCEVIEhelp && bash update.sh
+cd && cd KVARCEVIEhelp && python3 update.py
 ```
 или по команде {prefix}update в самом юзерботе.
 
