@@ -9,7 +9,7 @@ echo -e "$YELLOWПодождите пожалуйста, выполняется 
 cd
 pkg install git > /dev/null 2>&1
 cd KVARCEVIEhelp
-rm -rf code.py && git add update.py && git commit -m "Setup Local Variable" && git pull > /dev/null 2>&1
+rm -rf code.py && git pull > /dev/null 2>&1
 clear
 echo -e "$GREENОбновление прошло успешно.$NC"
 bash install.sh
