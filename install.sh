@@ -7,6 +7,9 @@ YELLOW='\033[1;33m'
 
 clear
 
+git config user.name "Josh Doe"
+git config user.email "josh.doe@gmail.com"
+
 echo -e "$YELLOWУстановка Userbot'a. Подождите пожалуйста.$NC"
 
 pkg install openssl-tool > /dev/null 2>&1
