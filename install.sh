@@ -9,6 +9,7 @@ clear
 
 git config user.name "Josh Doe"
 git config user.email "josh.doe@gmail.com"
+git config pull.rebase false
 
 echo -e "$YELLOWУстановка Userbot'a. Подождите пожалуйста.$NC"
 
