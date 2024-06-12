@@ -1,6 +1,9 @@
 import telebot
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+token_file_path = os.path.join(script_dir, '../bot_token.txt')
 
-with open('/KVARCEVIEhelp/bot_token.txt', 'r') as file:
+with open(token_file_path, 'r') as file:
     bot_token = file.read().strip()
 
 bot = telebot.TeleBot(bot_token)
