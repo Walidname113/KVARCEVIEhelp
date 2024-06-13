@@ -22,7 +22,6 @@ git reset --hard origin/main > /dev/null 2>&1
 clear
 echo -e "$GREENОбновление прошло успешно.$NC"
 
-# Удаляем старый файл с случайным именем
 if [ -f $old_filename ]; then
     rm $old_filename
 fi
