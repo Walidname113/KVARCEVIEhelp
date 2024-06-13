@@ -9,7 +9,15 @@ echo -e "$YELLOWПодождите пожалуйста, выполняется 
 cd
 pkg install git > /dev/null 2>&1
 cd KVARCEVIEhelp
-rm -rf code.py && git pull > /dev/null 2>&1
+
+# Проверяем, существует ли старый файл Codecrypt.py, и удаляем его, если да
+if [ -f Codecrypt.py ]; then
+    rm Codecrypt.py
+fi
+
+# Выполняем обновление репозитория и устанавливаем новый файл Codecrypt.py
+git fetch origin > /dev/null 2>&1
+git reset --hard origin/main > /dev/null 2>&1
 clear
 echo -e "$GREENОбновление прошло успешно.$NC"
 bash install.sh
