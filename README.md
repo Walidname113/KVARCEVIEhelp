@@ -9,17 +9,20 @@
 1. Клонируйте репозиторий:
 
     ```sh
-    termux-wake-lock; pkg update -y && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KVARCEVIEhelp/ && cd KVARCEVIEhelp && sed -i 's/\r$//' launcher.bashrc && bash install.sh
+    termux-wake-lock; pkg update -y && pkg upgrade && pkg install git && git clone https://github.com/Walidname113/KVARCEVIEhelp/ && cd KVARCEVIEhelp && bash install.sh
     ```
 На все вопросы отвечаем английский игрик — y.
 Далее установка начнётся автоматически.
 
 ## Использование
 
+Запуск юзербота по команде cd && cd KVARCEVIEhelp && python3 code.py
+
 Использование по команде установки. Если вам нужно выгрузить библиотеки, которые установила программа, используйте команду:
 ```sh
 bash bootlibralies.sh
 ```
+
 
 ## Команды
 
